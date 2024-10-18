@@ -19,13 +19,12 @@ body {
     background-color: #202020;
     border-radius: 20px;
     overflow: hidden;
-    width: 70%;
-    max-width: 800px;
+    width: 110%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .left {
-    background-color: #3aa35e;
+    background:linear-gradient(90deg,#202020,#3aa35e);
     padding: 30px;
     text-align: center;
     width: 40%;
