@@ -27,7 +27,8 @@ body {
     padding: 30px;
     text-align: center;
     width: 40%;
-    margin-left: 20%;
+    position: relative;
+    right: 30%;
 }
 
 .left img {
