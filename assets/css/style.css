@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.card {
+    display: flex;
+    background-color: #202020;
+    border-radius: 20px;
+    overflow: hidden;
+    width: 90%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    margin-left: 5%;
+    margin-top: 1.5%;
+}
+
+.left {
+    background:linear-gradient(90deg,#202020,#3aa35e);
+    padding: 30px;
+    text-align: center;
+    width: 40%;
+}
+
+.left img {
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.left h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 750;
+    color: #000000;
+}
+
+.role {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.right {
+    padding: 30px;
+    width: 60%;
+    position: relative;
+    top: 110%;
+
+}
+
+h2 {
+    font-size: 200%;
+    color: #3aa35e;
+    margin-top: 30px
+}
+
+p, ul {
+    line-height: 1.6;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+.highlight {
+    color: #ffffff;
+}
+
+.portfolio{
+    padding: 20px;
+    text-align: center;
+}
+
+.portfolio h2 {
+    font-size: 24px;
+    color: #3aa35e;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    gap: 20px;
+}
+
+.gallery img {
+    width: 15%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background-color: #3aa35e;
+    color: #000000;
+    font-size: 14px;
+    margin-top: 90 px;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+}
+
+footer h3 {
+    font-size: 30px; /
+    color: black;
+    margin-bottom: 10px;
+}
+
+footer p {
+    font-size: 18px;
+    color: #333;
+}
+
